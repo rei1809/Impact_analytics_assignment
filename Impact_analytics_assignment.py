@@ -106,22 +106,19 @@ class Graduation:
         return f"{res2} / {res1}"
 
     def run(self):
-        print('=' * 40)
+        print('-' * 40)
         print('n:', self.n, ', misses:', self.m, '\n')
         #print('Using recursion:', self.findWays()) # time limit exceeded for (365,4)
-        print('=' * 40)
+        print('-' * 40)
         print()
         print('Using Memoisation:', self.findWays2()) #TC: O()
-        print('=' * 40)
+        print('-' * 40)
         print()
         print('Using Tabulation method:', self.findWays3())
-        print('=' * 40)
+        print('-' * 40)
         print()
         print('Using Tabulation with space optimisation', self.findWays4())
-        print('=' * 40)
-        print()
-
-
+        print('-' * 40)
 
 if __name__ == "__main__":
     inputs = [(5, 4),(10, 4),(365,4)]
