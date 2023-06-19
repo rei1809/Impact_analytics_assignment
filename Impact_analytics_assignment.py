@@ -13,7 +13,7 @@ class Graduation:
 
     #Recursive
     '''
-    TC: O(2^(n*m))
+    TC: exponential 
     SC: O(n * m)
     '''
     def findWays(self):
